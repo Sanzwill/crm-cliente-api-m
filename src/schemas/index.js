@@ -3,7 +3,7 @@ const express = require("express")
 const morgan = require("morgan")
 const cors = require("cors");
 
-const config = require("./config")
+const config = require("./config/index")
 
 const DBConnection = require("./database/DBConnection")
 const productRoutes = require("./routes/product.routes")
